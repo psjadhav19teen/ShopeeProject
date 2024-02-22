@@ -365,7 +365,3 @@ def updateregisterproduct(req, productid):
         return render(req, "updateregisterproduct.html", context)
     else:
         return redirect("/signin")
-
-
-def main():
-    pass
